@@ -291,12 +291,7 @@ a {
 
 /* crousal start from here  */
 
-.container{
-    width: 100%;
-    max-height: 80vh;
-    overflow: hidden;
-    padding: 0;
-}
+
 
 .carousel-caption{
     margin-bottom: 30px;
@@ -309,11 +304,10 @@ a {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    min-height: 40vh;
+    min-height: 30vh;
 }
 
 .dev{
-    margin-top: 2rem;
     text-align: center;
     align-items: center;
     color: #BAA153;
@@ -341,8 +335,10 @@ a {
 /* from here the project section is started from  */
 
 #proj{
-    padding: 10px 40px;
-    margin-top: 3rem;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 4rem !important;
+    min-height: fit-content !important;
 }
 
 .text-center{
@@ -449,6 +445,167 @@ a {
     text-decoration: none !important;
 }
 
+.head:hover{
+    color:#BAA153;
+}
+
 .text-capitalize {
     text-transform: capitalize !important;
 }
+
+
+/* the about section content css is starts from here  */
+
+#aboutdiv{
+    margin-top: 4rem;
+    padding: 10px;
+    background-color: #000000;
+    min-height: 40vh;
+}
+
+
+.ab-head{
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.a-head{
+    font-weight: 600;
+    font-size: 39px;
+    color: #fff;
+}
+
+.ab-para{
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+.a-para{
+    color: #fff;
+}
+
+.counter{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px !important;
+}
+
+.counter-inner span img {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.min-count {
+    position: relative;
+    margin-top: 8px;
+}
+
+.ag-counter{
+    color: #ffffff;
+}
+
+.min-count p {
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+
+/* the section of property type is starts from here  */
+
+
+#pro-type{
+    margin-top: 4rem;
+    padding: 10px;
+    /* background-color: #7b43c5; */
+    min-height: 40vh;
+}
+
+
+.p-head{
+    text-align: center;
+    align-items: center;
+}
+
+.pro-head{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.p-div{
+    margin-top: 2rem;
+}
+
+.property-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.property {
+    /* background-color: #f0f0f0; */
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.property h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #54595f;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .property-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+#why {
+    width: 100%;
+    display: block;
+    min-height: 40vh;
+    background-image: url("../images/17.png");
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 3rem 0;
+}
+
+.why-head{
+    padding-top: 3rem;
+}
+
+.why-head h3{
+    font-size: 39px;
+    font-weight: 600;
+    color: #fff;
+}
+.why-left{
+    align-items: left;
+    text-align: left;
+}
+
+.why-p{
+    max-width: 600px;
+    margin-left: 0;
+    color: #fff;
+    text-align: left;
+}
+
