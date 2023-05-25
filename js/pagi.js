@@ -1,48 +1,48 @@
 const projects = [
   { 
-    title: 'Project 1', 
+    title: 'Elan The Mark', 
+    type: 'residential',
+    imageUrl: 'images/elanmark1.jpg',
+    url: 'property/elanthemark.html'
+  },
+  { 
+    title: 'Elan The Presidential', 
+    type: 'commercial',
+    imageUrl: 'images/elanpredential21.jpg',
+    url: '#'
+  },
+  { 
+    title: 'Central Park', 
     type: 'residential',
     imageUrl: 'images/17.png',
     url: '#'
   },
   { 
-    title: 'Project 2', 
+    title: 'Smartworld Dxp one', 
     type: 'commercial',
     imageUrl: 'images/17.png',
     url: '#'
   },
   { 
-    title: 'Project 3', 
+    title: 'M3m Crown', 
     type: 'residential',
     imageUrl: 'images/17.png',
     url: '#'
   },
   { 
-    title: 'Project 4', 
+    title: 'Emaar', 
     type: 'commercial',
     imageUrl: 'images/17.png',
     url: '#'
   },
   { 
-    title: 'Project 5', 
+    title: 'M3m Golf Hills', 
     type: 'residential',
     imageUrl: 'images/17.png',
     url: '#'
   },
   { 
-    title: 'Project 6', 
-    type: 'commercial',
-    imageUrl: 'images/17.png',
-    url: '#'
-  },
-  { 
-    title: 'Project 7', 
-    type: 'residential',
-    imageUrl: 'images/17.png',
-    url: '#'
-  },
-  { 
-    title: 'Project 8', 
+    title: 'Sobha City', 
     type: 'commercial',
     imageUrl: 'images/17.png',
     url: '#'
@@ -57,9 +57,14 @@ function createProjectCard(project) {
   const projectCard = document.createElement('div');
   projectCard.classList.add('col-lg-4', 'col-md-6', 'mb-4');
 
+  
+
   const imageElement = document.createElement('img');
   imageElement.src = project.imageUrl;
   imageElement.classList.add('project-image');
+  imageElement.addEventListener('click', () => {
+    window.location.href = project.url; // Redirect to the project URL
+  });
   projectCard.appendChild(imageElement);
 
   const titleElement = document.createElement('h2');
