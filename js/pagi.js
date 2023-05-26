@@ -9,43 +9,43 @@ const projects = [
     title: 'Elan The Presidential', 
     type: 'commercial',
     imageUrl: 'images/elanpredential21.jpg',
-    url: '#'
+    url: 'property/elanpresidential.html'
   },
   { 
     title: 'Central Park', 
     type: 'residential',
     imageUrl: 'images/17.png',
-    url: '#'
+    url: '/property/centralpark.html'
   },
   { 
     title: 'Smartworld Dxp one', 
     type: 'commercial',
     imageUrl: 'images/17.png',
-    url: '#'
+    url: 'property/starworlddxpone.html'
   },
   { 
     title: 'M3m Crown', 
     type: 'residential',
     imageUrl: 'images/17.png',
-    url: '#'
+    url: 'property/m3mcrown.html'
   },
   { 
     title: 'Emaar', 
     type: 'commercial',
     imageUrl: 'images/17.png',
-    url: '#'
+    url: 'property/emaar.html'
   },
   { 
     title: 'M3m Golf Hills', 
     type: 'residential',
     imageUrl: 'images/17.png',
-    url: '#'
+    url: 'property/m3mgolfhill.html'
   },
   { 
     title: 'Sobha City', 
     type: 'commercial',
     imageUrl: 'images/17.png',
-    url: '#'
+    url: 'property/sobhacity.html'
   },
   // Add more projects...
 ];
@@ -145,8 +145,30 @@ function handleSearch() {
   updatePagination(filteredProjects);
 }
 
-document.getElementById('search-button').addEventListener('click', handleSearch);
+document.getElementById('search-input').addEventListener('input', handleSearch);
+
+
+
 
 // Initial display of all projects
 displayProjects(projects, currentPage);
 updatePagination(projects);
+
+const searchInput = document.getElementById('search-input');
+const searchOptions = {
+  getValue: 'title',
+  list: {
+    match: {
+      enabled: true
+    }
+  }
+};
+const autocomplete = new autoComplete({
+  selector: searchInput,
+  minChars: 1,
+  cache: false,
+  source: function(term, suggest) {
+    const suggestions = projects.filter(project => project.title.toLowerCase().startsWith(term.toLowerCase()));
+    suggest(suggestions);
+  }
+});
