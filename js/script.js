@@ -70,3 +70,7 @@
         }
     })
 })();
+
+
+const whatsappButton = document.getElementById('whatsapp-button');
+whatsappButton.href = 'https://wa.me/+919690419681';
