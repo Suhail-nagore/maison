@@ -314,11 +314,12 @@ a {
         
 }
 
-.heading{
+.heading h2{
     padding-top: 9rem;
     align-items: center;
     text-align: center;
     color: #BAA153;
+    font-weight: 600;
 }
 
 

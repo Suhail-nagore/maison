@@ -14,7 +14,7 @@ const projects = [
   { 
     title: 'Central Park', 
     type: 'residential',
-    imageUrl: 'images/17.png',
+    imageUrl: 'images/SW 113 - Bar Cam.jpg',
     url: '/property/centralpark.html'
   },
   { 
