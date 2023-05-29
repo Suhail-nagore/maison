@@ -14,13 +14,13 @@ const projects = [
   { 
     title: 'Central Park', 
     type: 'residential',
-    imageUrl: 'images/SW 113 - Bar Cam.jpg',
+    imageUrl: 'images/centralmain.jpg',
     url: '/property/centralpark.html'
   },
   { 
     title: 'Smartworld Dxp one', 
     type: 'commercial',
-    imageUrl: 'images/17.png',
+    imageUrl: 'images/SW 113 - Bar Cam.jpg',
     url: 'property/starworlddxpone.html'
   },
   { 
