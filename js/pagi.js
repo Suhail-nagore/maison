@@ -15,7 +15,7 @@ const projects = [
     title: 'Central Park', 
     type: 'residential',
     imageUrl: 'images/centralmain.jpg',
-    url: '/property/centralpark.html'
+    url: 'property/centralpark.html'
   },
   { 
     title: 'Smartworld Dxp one', 
