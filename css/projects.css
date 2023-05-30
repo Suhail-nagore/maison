@@ -303,22 +303,22 @@ a {
 
 /* crousal start from here  */
 
-#img1{
+#img1 {
 
-            width: 100%;
-            display: block;
-            min-height: 40vh;
-            background-image: url("../images/17.png");
-            background-position: center top;
-            background-size: cover;
-        
+    width: 100%;
+    display: block;
+    min-height: 40vh;
+    background-image: url("../images/exploremain.jpg");
+    background-position: center top;
+    background-size: cover;
+
 }
 
-.heading h2{
-    padding-top: 9rem;
+.heading h2 {
+    padding-top: 7rem;
     align-items: center;
     text-align: center;
-    color: #BAA153;
+    color: #f2f2f2;
     font-weight: 600;
 }
 
@@ -423,15 +423,16 @@ a {
 #search-button:hover {
     background-color: #45a049;
 }
-.project-image{
+
+.project-image {
     height: auto;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-        max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    max-width: 100%;
 }
 
-.custom-link{
+.custom-link {
     text-decoration: none;
     color: black;
 }
@@ -501,10 +502,11 @@ a {
     border-color: #007bff;
 }
 
-.page-item{
+.page-item {
     text-decoration: none;
     display: inline-block;
 }
+
 .custom-link:hover {
     text-decoration: none;
     color: #BAA153;
@@ -577,6 +579,11 @@ a {
     text-transform: capitalize !important;
 }
 
+
+.clr-black a:hover{
+    text-decoration: none;
+
+}
 
 /* the about section content css is starts from here  */
 

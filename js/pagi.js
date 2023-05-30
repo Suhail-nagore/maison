@@ -32,7 +32,7 @@ const projects = [
   { 
     title: 'Emaar', 
     type: 'commercial',
-    imageUrl: 'images/17.png',
+    imageUrl: 'images/emaar1.jpg',
     url: 'property/emaar.html'
   },
   { 

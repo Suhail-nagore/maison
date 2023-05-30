@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
 body {
     line-height: 1.5;
     font-family: Gill Sans, sans-serif;
@@ -49,7 +50,7 @@ a {
     justify-content: space-between;
     padding: 15px 0;
     /* border-radius: 10px; */
-    box-shadow: 0 2px 5px rgb(0, 0,0 , 0.2);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
 }
 
 .header .logo {
@@ -118,6 +119,7 @@ a {
         opacity: 1;
         visibility: visible;
     }
+
     .header .menu>.menu-item-has-children:hover>a .plus:after {
         transform: translate(-50%, -50%) rotate(0deg);
     }
@@ -225,34 +227,42 @@ a {
         background-color: #222222;
         transition: all 0.5s ease;
     }
+
     .header .nav-menu.open {
         visibility: visible;
         right: 0px;
     }
+
     .header .menu>.menu-item {
         display: block;
         margin: 0;
     }
+
     .header .menu>.menu-item-has-children>a {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .header .menu>.menu-item>a {
         color: #ffffff;
         padding: 12px 15px;
         border-bottom: 1px solid #333333;
     }
+
     .header .menu>.menu-item:first-child>a {
         border-top: 1px solid #333333;
     }
+
     .header .menu>.menu-item>a .plus:before,
     .header .menu>.menu-item>a .plus:after {
         background-color: #ffffff
     }
+
     .header .menu>.menu-item-has-children.active>a .plus:after {
         transform: translate(-50%, -50%) rotate(0deg);
     }
+
     .header .menu>.menu-item>.sub-menu {
         width: 100%;
         position: relative;
@@ -268,11 +278,13 @@ a {
         max-height: 0;
         overflow: hidden;
     }
+
     .header .menu>.menu-item>.sub-menu>.menu-item>a {
         padding: 12px 45px;
         color: #ffffff;
         border-bottom: 1px solid #333333;
     }
+
     .header .close-nav-menu,
     .header .open-nav-menu {
         display: flex;
@@ -281,7 +293,7 @@ a {
 
 
 
-.ebat{
+.ebat {
     padding: 20px 30px;
     text-decoration: none;
     color: white;
@@ -293,7 +305,7 @@ a {
 
 
 
-.carousel-caption{
+.carousel-caption {
     margin-bottom: 30px;
 }
 
@@ -318,14 +330,14 @@ a {
 
 /* partners ka section yaha se start  ho raha hai  */
 
-#partners{
+#partners {
     margin: 0;
     padding: 0;
     background-color: #000000;
     min-height: 30vh;
 }
 
-.dev{
+.dev {
     text-align: center;
     align-items: center;
     color: #BAA153;
@@ -352,18 +364,18 @@ a {
 
 /* from here the project section is started from  */
 
-#proj{
+#proj {
     padding-top: 80px;
     padding-bottom: 50px;
     margin-bottom: 4rem !important;
     min-height: fit-content !important;
 }
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
 
-.sec-head{
+.sec-head {
     max-width: 700px;
     margin-bottom: 40px;
     position: relative;
@@ -373,46 +385,47 @@ a {
     font-size: 34px;
 }
 
-.latest{
+.latest {
     font-weight: 600 !important;
 }
 
 
-.main-div{
+.main-div {
     margin-bottom: 30px !important;
 }
 
-.main-data{
+.main-data {
     position: relative;
     padding: 5px;
     width: 100%;
 }
 
-.img-data{
+.img-data {
     width: 100%;
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
-.main-data .main-data .img-data {
- min-height: auto;
-}
+    .main-data .main-data .img-data {
+        min-height: auto;
+    }
 }
 
-.clr-black{
+.clr-black {
     color: #20292f;
     box-shadow: none;
     text-decoration: none !important;
 
 }
 
-.clr-black img{
-        height: auto;
-        border: none;
-        border-radius: 0;    
-        box-shadow: none;
-        max-width: 100%;
+.clr-black img {
+    height: auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    max-width: 100%;
 }
 
-.label-badges{
+.label-badges {
     position: absolute;
     top: 24px;
     right: 10px;
@@ -422,12 +435,12 @@ a {
     text-align: left !important;
 }
 
-.list-unstyled{
+.list-unstyled {
     padding-left: 0;
     list-style: none;
 }
 
-.list-inline-item{
+.list-inline-item {
     display: inline-block;
 }
 
@@ -446,7 +459,7 @@ a {
     background: #000;
 }
 
-.listing-data{
+.listing-data {
     word-wrap: break-word;
     position: relative;
 }
@@ -456,15 +469,15 @@ a {
     padding: 15px;
 }
 
-.head{
+.head {
     font-size: 1.5rem;
     margin-bottom: 5px;
     color: #20292f;
     text-decoration: none !important;
 }
 
-.head:hover{
-    color:#BAA153;
+.head:hover {
+    color: #BAA153;
 }
 
 .text-capitalize {
@@ -474,7 +487,7 @@ a {
 
 /* the about section content css is starts from here  */
 
-#aboutdiv{
+#aboutdiv {
     margin-top: 4rem;
     padding: 10px;
     background-color: #000000;
@@ -482,30 +495,30 @@ a {
 }
 
 
-.ab-head{
+.ab-head {
     margin-top: 1rem;
     text-align: center;
     align-items: center;
 }
 
-.a-head{
+.a-head {
     font-weight: 600;
     font-size: 39px;
     color: #fff;
 }
 
-.ab-para{
+.ab-para {
     margin-top: 2rem;
     text-align: center;
     align-items: center;
 
 }
 
-.a-para{
+.a-para {
     color: #fff;
 }
 
-.counter{
+.counter {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -527,7 +540,7 @@ a {
     margin-top: 8px;
 }
 
-.ag-counter{
+.ag-counter {
     color: #ffffff;
 }
 
@@ -542,7 +555,7 @@ a {
 /* the section of property type is starts from here  */
 
 
-#pro-type{
+#pro-type {
     margin-top: 4rem;
     padding: 10px;
     /* background-color: #7b43c5; */
@@ -550,17 +563,17 @@ a {
 }
 
 
-.p-head{
+.p-head {
     text-align: center;
     align-items: center;
 }
 
-.pro-head{
+.pro-head {
     font-weight: 600;
     font-size: 35px;
 }
 
-.p-div{
+.p-div {
     margin-top: 2rem;
 }
 
@@ -576,7 +589,7 @@ a {
     text-align: center;
 }
 
-.property h3{
+.property h3 {
     font-size: 25px;
     font-weight: 600;
     color: #54595f;
@@ -595,32 +608,103 @@ a {
     }
 }
 
+.property a {
+    text-decoration: none;
+}
+
+
+
+/* the why us section is started from here  */
+
+/* #why {
+    width: 100%;
+    display: block;
+    min-height: 40vh;
+    background-image: url("../images/Club-Side-B.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem 0;
+    position: relative;
+}
+#why::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  z-index: -1;
+}
+
+.why-head {
+    padding-top: 3rem;
+}
+
+.why-head h3 {
+    font-size: 39px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.why-left {
+    align-items: left;
+    text-align: left;
+}
+
+.why-p {
+    max-width: 600px;
+    margin-left: 0;
+    color: #fff;
+    text-align: left;
+} */
+
 
 #why {
     width: 100%;
     display: block;
     min-height: 40vh;
-    background-image: url("../images/17.png");
-    background-position: center top;
+    background-image: url("../images/Club-Side-B.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0;
+    position: relative;
+    overflow: hidden;
 }
 
-.why-head{
+#why::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .1) 0, #000 95%);
+    
+    z-index: -1;
+}
+
+.why-head {
     padding-top: 3rem;
+    position: relative;
+    z-index: 1;
 }
 
-.why-head h3{
+.why-head h3 {
     font-size: 39px;
     font-weight: 600;
     color: #fff;
 }
-.why-left{
+
+.why-left {
     align-items: left;
     text-align: left;
 }
 
-.why-p{
+.why-p {
     max-width: 600px;
     margin-left: 0;
     color: #fff;
@@ -629,18 +713,18 @@ a {
 
 /* =========the testimonials section is starts from here======  */
 
-#testimonials{
+#testimonials {
     padding: 80px 0;
     background-color: #f4f4fd;
 }
 
-.sec-heading{
+.sec-heading {
     margin-bottom: 40px;
     max-width: 700px;
     position: relative;
 }
 
-.testi-p{
+.testi-p {
     color: #C98F30 !important;
     font-size: 16px;
     margin-bottom: 0;
@@ -649,7 +733,7 @@ a {
     text-transform: uppercase
 }
 
-.testi-h2{
+.testi-h2 {
     font-size: 34px;
     font-weight: 700;
     color: #20292f;
@@ -787,45 +871,45 @@ a {
 
 /*============ the footer section is starts from here ============ */
 
-.footer-dark{
-        text-align: center;
-        background: #0c1722 none repeat scroll 0 0;
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        left: 0;
-        top: 0;
-        overflow: hidden;
-        z-index: 1;
+.footer-dark {
+    text-align: center;
+    background: #0c1722 none repeat scroll 0 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.footer-top{
+.footer-top {
     padding: 60px 0 50px;
     color: #e3e3e3;
 }
 
-.about-us-info{
+.about-us-info {
     margin-top: 30px;
     text-align: left;
 }
 
-.footer-img img{
+.footer-img img {
     width: 191px;
 }
 
-.footer-p{
+.footer-p {
     text-align: justify;
     color: #eee;
     margin: 20px 0;
 }
 
-.social-icon{
+.social-icon {
     position: relative;
     overflow: hidden;
     margin: 5px 0;
 }
 
-.social{
+.social {
     list-style: none;
     margin-bottom: 10px;
 }
@@ -849,21 +933,21 @@ ul.social li a {
     color: #eee;
 }
 
-.builders{
+.builders {
     color: #fff;
     font-size: 25px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
 
-.footer-dark .list{
+.footer-dark .list {
     list-style: square !important;
 }
 
-.list li{ 
- padding-left: 15px;
- margin: 0 0 10px;
- position: relative;
+.list li {
+    padding-left: 15px;
+    margin: 0 0 10px;
+    position: relative;
 }
 
 .footer-dark .list li a {
@@ -871,14 +955,14 @@ ul.social li a {
 }
 
 
-.projects{
+.projects {
     color: #fff;
     font-size: 25px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
 
-.contact{
+.contact {
     color: #fff;
     font-size: 25px;
     margin-bottom: 25px;
@@ -895,10 +979,10 @@ ul.social li a {
 
 
 .formfi {
-        font-size: 15px;
-        padding: 8px;
-         margin: 0;
-        width: 250px;
+    font-size: 15px;
+    padding: 8px;
+    margin: 0;
+    width: 250px;
 }
 
 .textarea {
