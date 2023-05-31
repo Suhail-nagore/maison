@@ -662,7 +662,7 @@ a {
 } */
 
 
-#why {
+/* #why {
     width: 100%;
     display: block;
     min-height: 40vh;
@@ -709,7 +709,60 @@ a {
     margin-left: 0;
     color: #fff;
     text-align: left;
+} */
+
+
+#why {
+  width: 100%;
+  display: block;
+  min-height: 40vh;
+  background-image: url("../images/Club-Side-B.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3rem 0;
+  position: relative;
 }
+
+.why-head {
+  padding-top: 1rem; /* Increase this value to move the blurred div downward */
+  position: relative;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.why-head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  z-index: -1;
+  backdrop-filter: blur(10px);
+}
+
+.why-head h3 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.why-left {
+  align-items: center;
+  text-align: center;
+}
+
+.why-p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-align: center;
+}
+
 
 /* =========the testimonials section is starts from here======  */
 
