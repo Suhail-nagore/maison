@@ -328,6 +328,27 @@ a {
     height: auto;
 }
 
+
+.fbbutton {
+    position: fixed;
+    right: 0;
+    bottom: 57%;
+    border: 2px solid #265DF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+}
+
+.fbbutton img {
+    width: 100%;
+    height: 100%;
+    
+}
 /* partners ka section yaha se start  ho raha hai  */
 
 #partners {
@@ -616,27 +637,17 @@ a {
 
 /* the why us section is started from here  */
 
-/* #why {
+#why {
     width: 100%;
     display: block;
     min-height: 40vh;
-    background-image: url("../images/Club-Side-B.jpg");
+    background-image: url("../images/finalclub.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 3rem 0;
-    position: relative;
-}
-#why::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
-  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
-  z-index: -1;
+
+    margin: 3rem 0 3rem 0;
+
 }
 
 .why-head {
@@ -659,7 +670,7 @@ a {
     margin-left: 0;
     color: #fff;
     text-align: left;
-} */
+}
 
 
 /* #why {
@@ -712,7 +723,7 @@ a {
 } */
 
 
-#why {
+/* #why {
   width: 100%;
   display: block;
   min-height: 40vh;
@@ -726,7 +737,7 @@ a {
 
 .why-head {
   padding-top: 1rem; /* Increase this value to move the blurred div downward */
-  position: relative;
+  /* position: relative;
   margin-top: 1rem;
   z-index: 1;
 }
@@ -748,7 +759,7 @@ a {
   font-weight: 600;
   color: #fff;
   /* margin-top: 5rem; */
-}
+/* }
 
 .why-left {
   align-items: center;
@@ -764,8 +775,8 @@ a {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
-}
-
+} */ */
+ */
 
 /* =========the testimonials section is starts from here======  */
 
