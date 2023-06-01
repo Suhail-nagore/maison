@@ -1,11 +1,6 @@
 const projects = [
-  { 
-    title: 'Elan The Mark', 
-    type: 'commercial',
-    imageUrl: 'images/elanmark1.jpg',
-    url: 'property/elanthemark.html'
-  },
-  { 
+
+ { 
     title: 'Elan The Presidential', 
     type: 'residential',
     imageUrl: 'images/elanpredential21.jpg',
@@ -31,7 +26,7 @@ const projects = [
   },
   { 
     title: 'Emaar', 
-    type: 'cresidential',
+    type: 'residential',
     imageUrl: 'images/emaar1.jpg',
     url: 'property/emaar.html'
   },

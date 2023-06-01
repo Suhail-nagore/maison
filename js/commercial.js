@@ -1,51 +1,9 @@
 const projects = [
-  { 
+    { 
     title: 'Elan The Mark', 
     type: 'commercial',
     imageUrl: 'images/elanmark1.jpg',
     url: 'property/elanthemark.html'
-  },
-  { 
-    title: 'Elan The Presidential', 
-    type: 'residential',
-    imageUrl: 'images/elanpredential21.jpg',
-    url: 'property/elanpresidential.html'
-  },
-  { 
-    title: 'Central Park', 
-    type: 'residential',
-    imageUrl: 'images/centralmain.jpg',
-    url: 'property/centralpark.html'
-  },
-  { 
-    title: 'Smartworld Dxp one', 
-    type: 'residential',
-    imageUrl: 'images/SW 113 - Bar Cam.jpg',
-    url: 'property/starworlddxpone.html'
-  },
-  { 
-    title: 'M3m Crown', 
-    type: 'residential',
-    imageUrl: 'images/17.png',
-    url: 'property/m3mcrown.html'
-  },
-  { 
-    title: 'Emaar', 
-    type: 'cresidential',
-    imageUrl: 'images/emaar1.jpg',
-    url: 'property/emaar.html'
-  },
-  { 
-    title: 'M3m Golf Hills', 
-    type: 'residential',
-    imageUrl: 'images/17.png',
-    url: 'property/m3mgolfhill.html'
-  },
-  { 
-    title: 'Sobha City', 
-    type: 'residential',
-    imageUrl: 'images/17.png',
-    url: 'property/sobhacity.html'
   },
   // Add more projects...
 ];

@@ -309,6 +309,50 @@ a {
     margin-bottom: 30px;
 }
 
+.carousel-caption h5  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.carousel-caption p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(3px);
+    /* padding: 20px; */
+    color: #fff;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+.fbweb{
+
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    display: flex;
+
+}
 #whatsapp-button {
     position: fixed;
     right: 0;
