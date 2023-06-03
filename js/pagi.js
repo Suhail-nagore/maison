@@ -129,6 +129,22 @@ function updatePagination(filteredProjects) {
   }
 }
 
+// function handleSearch() {
+//   const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
+//   const searchOption = document.getElementById('search-option').value;
+//   let filteredProjects = projects;
+
+//   if (searchOption !== 'all') {
+//     filteredProjects = projects.filter(project => project.type === searchOption);
+//   }
+
+//   filteredProjects = filteredProjects.filter(project => project.title.toLowerCase().includes(searchInput));
+
+//   currentPage = 1;
+//   displayProjects(filteredProjects, currentPage);
+//   updatePagination(filteredProjects);
+// }
+
 function handleSearch() {
   const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
   const searchOption = document.getElementById('search-option').value;
@@ -146,6 +162,10 @@ function handleSearch() {
 }
 
 document.getElementById('search-input').addEventListener('input', handleSearch);
+document.getElementById('search-option').addEventListener('change', handleSearch);
+
+
+// document.getElementById('search-input').addEventListener('input', handleSearch);
 
 
 
