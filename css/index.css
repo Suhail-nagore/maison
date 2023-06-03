@@ -309,7 +309,7 @@ a {
     margin-bottom: 30px;
 }
 
-.carousel-caption h5  {
+/* .carousel-caption h5  {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -329,20 +329,20 @@ a {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(3px);
     /* padding: 20px; */
-    color: #fff;
-    border-radius: 10px;
-}
+    /* color: #fff;
+    border-radius: 10px; */
+/* } */
 
-.carousel-caption h5 {
+/* .carousel-caption h5 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
-}
+} */
 
-.carousel-caption p {
+/* .carousel-caption p {
     font-size: 16px;
     margin-bottom: 0;
-}
+} */ 
 
 
 .fbweb{
