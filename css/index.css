@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    line-height: 1.5;
-    font-family: Gill Sans, sans-serif;
-    /* font-weight: 400; */
+    line-height: 1.8;
+        /* font-family: Gill Sans, sans-serif; */
+        /* font-weight: 400; */
+        font-family: Montserrat, sans-serif;
 }
 
 body.hidden-scroling {
@@ -73,13 +75,13 @@ a {
 }
 
 .header .nav-menu {
-    padding: 0 50px;
-    margin: 0 100px;
+    padding: 0 25px;
+    margin: 0 50px;
 }
 
 .header .menu>.menu-item {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     position: relative;
 }
 
