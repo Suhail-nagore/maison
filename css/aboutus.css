@@ -60,6 +60,11 @@ a {
     margin-top: 1rem;
     margin-right: 3rem;
 }
+.header .logo2 {
+    padding: 0;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
 
 .header .logo a {
     font-size: 18px;
