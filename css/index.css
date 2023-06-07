@@ -1061,6 +1061,7 @@ ul.social li a {
 
 .footer-dark .list {
     list-style: square !important;
+    margin-left: 1rem;
 }
 
 .list li {
