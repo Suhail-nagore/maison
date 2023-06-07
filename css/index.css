@@ -81,13 +81,13 @@ a {
 }
 
 .header .nav-menu {
-    padding: 0 25px;
-    margin: 0 50px;
+    padding: 0 50px;
+    margin: 0 100px;
 }
 
 .header .menu>.menu-item {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 10px;
     position: relative;
 }
 
