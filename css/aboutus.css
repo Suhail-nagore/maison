@@ -464,6 +464,15 @@ p:not(:last-child) {
     line-height: 15px;
 }
 
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.icon1{
+    padding-left: 7px;
+}
+
 
 /* about div style start from here  */
 #aboutdiv {

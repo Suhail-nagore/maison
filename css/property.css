@@ -1029,6 +1029,11 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
 }
+  .select-container {
+        position: relative;
+        height: 30px; /* Adjust the height as per your needs */
+        overflow-y: auto;
+    }
 
 .select2-container {
     box-sizing: border-box;
