@@ -949,7 +949,7 @@
                                                     data-content="The average expected interest in % percentage"
                                                     data-original-title="" title=""></i></label>
                                             <div class="custom-input-group  input-group">
-                                                <select id="interest_option"
+                                                <!-- <select id="interest_option"
                                                     class="theme-selects-group form-control select2-hidden-accessible"
                                                     data-select2-id="interest_option" tabindex="-1" aria-hidden="true">
                                                     <option value="Yearly" data-select2-id="8">Yearly</option>
@@ -967,9 +967,9 @@
                                                                 aria-readonly="true" title="Yearly">Yearly</span><span
                                                                 class="select2-selection__arrow" role="presentation"><b
                                                                     role="presentation"></b></span></span></span><span
-                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span> -->
                                                 <input type="number" class="form-control" id="input_interest"
-                                                    placeholder="Enter Percentage" min="2.00" step="0.01">
+                                                    placeholder="Enter Percentage(Yearly)" min="2.00" step="0.01">
                                             </div>
                                         </div>
                                         <div class="theme-row">
@@ -978,7 +978,7 @@
                                                     data-content="Repayment payment in years" data-original-title=""
                                                     title=""></i></label>
                                             <div class="custom-input-group input-group">
-                                                <select id="term_option"
+                                                <!-- <select id="term_option"
                                                     class="theme-selects-group form-control select2-hidden-accessible"
                                                     data-select2-id="term_option" tabindex="-1" aria-hidden="true">
                                                     <option value="Years" data-select2-id="10">Years</option>
@@ -996,9 +996,9 @@
                                                                 aria-readonly="true" title="Years">Years</span><span
                                                                 class="select2-selection__arrow" role="presentation"><b
                                                                     role="presentation"></b></span></span></span><span
-                                                        class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                        class="dropdown-wrapper" aria-hidden="true"></span></span> -->
                                                 <input type="number" class="form-control" id="input_duration"
-                                                    placeholder="Enter Duration" step="1">
+                                                    placeholder="Enter Duration(In Years)" step="1">
                                             </div>
                                         </div>
                                         <button id="calculate" type="button" class="btn btn-theme">Generate
@@ -1165,6 +1165,7 @@
             </div>
         </section>
 </body>
+<script src="../js/calc.js"></script>
 <script src="../js/cr.js"></script>
 <script src="../js/pagi.js"></script>
 <script src="../js/swiper-bundle.min.js"></script>
