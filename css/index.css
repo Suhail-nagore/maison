@@ -361,7 +361,7 @@ a {
     display: flex;
 
 }
-#whatsapp-button {
+.whatsapp-button {
     position: fixed;
     right: 0;
     bottom: 50%;
@@ -375,7 +375,7 @@ a {
     text-decoration: none;
 }
 
-#whatsapp-button img {
+.whatsapp-button img {
     width: 50%;
     height: auto;
 }
@@ -605,7 +605,7 @@ a {
     width: 64px;
     height: 64px;
     margin-right: 10px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .min-count {
@@ -617,11 +617,37 @@ a {
     color: #ffffff;
 }
 
+.ag-counte{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .min-count p {
     line-height: 18px;
     font-size: 16px;
+    margin-top: 5px;
     margin-bottom: 0;
     color: #ffffff;
+}
+
+.counter-inner .ag-counter {
+    font-size: 30px;
+    font-weight: bold;
+    animation: counterAnimation 2s ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes counterAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
