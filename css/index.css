@@ -435,6 +435,73 @@ a {
 }
 
 
+/* .partner-carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.cr1 {
+    display: flex;
+    animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.part {
+    padding: 1rem;
+}
+
+.part-img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.partner-carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel1 {
+    display: flex;
+    animation: slide 30s linear infinite;
+}
+
+.slide1 {
+    flex: 0 0 16.6666%;
+    max-width: 16.6666%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.part-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
 /* from here the project section is started from  */
 
 #proj {
