@@ -679,8 +679,6 @@ a {
 
 .socials-link {
     border: solid 1px #e2e2e2;
-    border-left: 0;
-    border-right: 0;
     margin: 15px 0;
     position: relative;
     overflow: hidden;

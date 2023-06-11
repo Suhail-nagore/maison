@@ -3,9 +3,9 @@
 
 body {
     line-height: 1.8;
-        /* font-family: Gill Sans, sans-serif; */
-        /* font-weight: 400; */
-        font-family: Montserrat, sans-serif;
+    /* font-family: Gill Sans, sans-serif; */
+    /* font-weight: 400; */
+    font-family: Montserrat, sans-serif;
 }
 
 body.hidden-scroling {
@@ -337,7 +337,7 @@ a {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(3px);
     /* padding: 20px; */
-    /* color: #fff;
+/* color: #fff;
     border-radius: 10px; */
 /* } */
 
@@ -350,10 +350,10 @@ a {
 /* .carousel-caption p {
     font-size: 16px;
     margin-bottom: 0;
-} */ 
+} */
 
 
-.fbweb{
+.fbweb {
 
     position: fixed;
     right: 0;
@@ -361,6 +361,7 @@ a {
     display: flex;
 
 }
+
 .whatsapp-button {
     position: fixed;
     right: 0;
@@ -399,15 +400,15 @@ a {
 .fbbutton img {
     width: 50%;
     height: auto;
-    
+
 }
+
 /* partners ka section yaha se start  ho raha hai  */
 
 #partners {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    min-height: 30vh;
 }
 
 .dev {
@@ -527,6 +528,7 @@ a {
 
 .latest {
     font-weight: 600 !important;
+    padding-top: 1rem;
 }
 
 
@@ -684,7 +686,7 @@ a {
     color: #ffffff;
 }
 
-.ag-counte{
+.ag-counte {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
@@ -882,7 +884,7 @@ a {
 
 .why-head {
   padding-top: 1rem; /* Increase this value to move the blurred div downward */
-  /* position: relative;
+/* position: relative;
   margin-top: 1rem;
   z-index: 1;
 }
@@ -920,9 +922,8 @@ a {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
-} */ */
- */
-
+} */
+*/ */
 /* =========the testimonials section is starts from here======  */
 
 #testimonials {
