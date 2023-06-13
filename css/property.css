@@ -226,7 +226,7 @@ a {
 @media (max-width: 1160px) {
     .header .nav-menu {
         position: fixed;
-        right: -280px;
+        right: -300px;
         visibility: hidden;
         width: 280px;
         height: 100%;
@@ -240,7 +240,7 @@ a {
 
     .header .nav-menu.open {
         visibility: visible;
-        right: 0px;
+        right: -110px;
     }
 
     .header .menu>.menu-item {
