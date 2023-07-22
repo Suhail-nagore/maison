@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Connect to the database
     $servername = "localhost"; // Replace with your MySQL server name
-    $username = "maisonform1"; // Replace with your MySQL username
+    $username = "u339725174_maisonform1"; // Replace with your MySQL username
     $password = "Maison@123"; // Replace with your MySQL password
     $dbname = "u339725174_maisonform"; // Replace with your MySQL database name
 
