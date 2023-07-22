@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare and execute the database query
     try {
         $stmt = $conn->prepare("INSERT INTO ContactForm (name,  email, contact_number, message) VALUES (:name,  :email, :contactNumber, :message)");
-       
+        $stmt->bindParam(':name', $name);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':contactNumber', $contactNumber);
         $stmt->bindParam(':message', $message);
