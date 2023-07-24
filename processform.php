@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Connect to the database
     $servername = "localhost"; // Replace with your MySQL server name
     $username = "u339725174_maisonform1"; // Replace with your MySQL username
+    $username = "u339725174_maisonform1"; // Replace with your MySQL username
     $password = "Maison@123"; // Replace with your MySQL password
     $dbname = "u339725174_maisonform"; // Replace with your MySQL database name
 
@@ -35,6 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         $stmt = $conn->prepare("INSERT INTO ContactForm (name,  email, contact_number, message) VALUES (:name,  :email, :contactNumber, :message)");
         $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':name', $name);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':contactNumber', $contactNumber);
         $stmt->bindParam(':message', $message);
@@ -50,6 +52,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send an email with the form data
     $mail = new PHPMailer(true);
+
+
+
+
 
     try {
         // Server settings
