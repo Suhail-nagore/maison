@@ -22,6 +22,10 @@ body.hidden-scroling {
     margin-top: 0;
 }
 
+ol,ul{
+    padding-left: 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -72,9 +76,9 @@ a {
 @media (max-width:767px) {
 
     .header .logo2 {
-           min-height: 50px;
-           
-        }
+        min-height: 50px;
+
+    }
 }
 
 
@@ -342,7 +346,12 @@ a {
 /* crousal start from here  */
 
 .c-item {
-    height: 600px;
+    height: 700px;
+
+}
+
+.c-item h5{
+    font-family: Montserrat, sans-serif;
 }
 
 .c-img {
@@ -350,6 +359,23 @@ a {
     object-fit: cover;
     filter: brightness(0.6);
 }
+
+@media (max-width: 1023px) {
+    .c-item{
+        height: 500px;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    .c-item{
+        height: 300px;
+    }
+    
+}
+
+
 
 
 
@@ -550,6 +576,8 @@ a {
     padding-bottom: 50px;
     margin-bottom: 4rem !important;
     min-height: fit-content !important;
+    font-family: Montserrat, sans-serif;
+    
 }
 
 .text-center {
@@ -674,6 +702,7 @@ a {
     padding: 10px;
     background-color: #000000;
     min-height: 40vh;
+    font-family: Montserrat, sans-serif;
 }
 
 
@@ -768,6 +797,7 @@ a {
     padding: 10px;
     /* background-color: #7b43c5; */
     min-height: 40vh;
+    font-family: Montserrat, sans-serif;
 }
 
 
@@ -832,6 +862,7 @@ a {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Montserrat, sans-serif;
 
     margin: 3rem 0 3rem 0;
 
@@ -969,6 +1000,7 @@ a {
 #testimonials {
     padding: 80px 0;
     background-color: #f4f4fd;
+    font-family: Montserrat, sans-serif;
 }
 
 .sec-heading {
@@ -1134,6 +1166,7 @@ a {
     top: 0;
     overflow: hidden;
     z-index: 1;
+    font-family: Montserrat, sans-serif;
 }
 
 .footer-top {
@@ -1262,4 +1295,10 @@ ul.social li a {
     margin: 0;
     font-size: 16px;
     color: #eee;
+}
+
+
+ol,
+ul {
+    padding-left: 0rem !important;
 }
