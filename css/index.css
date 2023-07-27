@@ -430,7 +430,7 @@ a {
 
 .whatsapp-button {
     position: fixed;
-    right: 0;
+    right: -45px;
     bottom: 50%;
     display: flex;
     align-items: center;
@@ -440,6 +440,14 @@ a {
     background: #26D367;
     color: white;
     text-decoration: none;
+    transition: right 0.5s ease;
+    z-index: 1000;
+    border-radius: 0 0 0 10px;
+}
+
+.whatsapp-button:hover {
+    right: 0;
+    border-radius: 10px 0 0 10px;
 }
 
 .whatsapp-button img {
@@ -450,7 +458,7 @@ a {
 
 .fbbutton {
     position: fixed;
-    right: 0;
+    right: -45px;
     bottom: 57%;
     /* border: 2px solid #265DF2; */
     display: flex;
@@ -461,6 +469,15 @@ a {
     background: rgb(39, 124, 221);
     color: white;
     text-decoration: none;
+    cursor: pointer;
+    transition: right 0.5s ease;
+    z-index: 1000;
+    border-radius: 10px 0 0 0;
+}
+
+.fbbutton:hover{
+    border-radius: 10px 0 0 10px;
+    right: 0;
 }
 
 .fbbutton img {
@@ -468,6 +485,24 @@ a {
     height: auto;
 
 }
+
+
+/* .hidden-button {
+    position: fixed;
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: right 0.3s ease;
+}
+
+.hidden-button:hover {
+    right: 0;
+} */
 
 /* partners ka section yaha se start  ho raha hai  */
 
