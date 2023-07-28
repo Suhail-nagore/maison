@@ -10,18 +10,11 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/index.css" />
   <script src="https://kit.fontawesome.com/9c5eb2a5cc.js" crossorigin="anonymous"></script>
-  <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -99,91 +92,56 @@
 
   <!--------------------- crousal starts from here =========== -->
 
-<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#hero-carousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#hero-carousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#hero-carousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img
-            src="./images/c1-min.jpg"
-            class="d-block w-100 c-img"
-            alt="Slide 1"
-          />
-          <div class="carousel-caption d-md-block">
-            <h5>Incredible deals on prime commercial properties</h5>
-            <!-- <p>Contact for more</p> -->
-          </div>
-        </div>
-        <div class="carousel-item c-item">
-          <img
-            src="./images/c9-min.jpg"
-            class="d-block w-100 c-img"
-            alt="Slide 2"
-          />
-          <div class="carousel-caption d-md-block">
-            <h5>Assured return properties at a discounted price</h5>
-            <!-- <p>Contact for more</p> -->
-          </div>
-        </div>
-        <div class="carousel-item c-item">
-          <img
-            src="./images/c16-min.jpg"
-            class="d-block w-100 c-img"
-            alt="Slide 3"
-          />
-          <div class="carousel-caption d-md-block">
-            <h5>Get unbeatable deals on properties in Gurgaon!</h5>
-            <!-- <p>Contact for more</p> -->
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#hero-carousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#hero-carousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
 
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="./images/c1-min.jpg" class="d-block w-100 c-img" alt="Slide 1" />
+        <div class="carousel-caption d-md-block">
+          <h5>Incredible deals on prime commercial properties</h5>
+          <!-- <p>Contact for more</p> -->
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./images/c9-min.jpg" class="d-block w-100 c-img" alt="Slide 2" />
+        <div class="carousel-caption d-md-block">
+          <h5>Assured return properties at a discounted price</h5>
+          <!-- <p>Contact for more</p> -->
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="./images/c16-min.jpg" class="d-block w-100 c-img" alt="Slide 3" />
+        <div class="carousel-caption d-md-block">
+          <h5>Get unbeatable deals on properties in Gurgaon!</h5>
+          <!-- <p>Contact for more</p> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <!-- =================================================================================================================================== -->
 
 
 
 
 
-  
   <a class="fbbutton hidden-button" href="https://www.facebook.com/profile.php?id=100089759930473" target="_blank">
     <img src="./images/fbnew.png" alt="Facebook">
   </a>
@@ -738,7 +696,7 @@
                 <!-- <button class="button">View More</button> -->
               </div>
             </div>
-            
+
           </div>
         </div>
 
@@ -751,129 +709,127 @@
 
   <!--=============== the footer section is starts from here ========= -->
   <section id="contact">
-        <div class="footer-dark">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="about-us-info">
-                                <div class="footer-img">
-                                    <img src="./images/maisoninfra1.png" alt="" />
-                                </div>
-                                <p class="footer-p">
-                                    957C Tower B1, Spaze I-Tech Park, Badshahpur Sohna Rd Hwy, Sector 49, Gurugram,
-                                    Haryana 122018, India<br />
-                                    Phone : +91 99991 56255<br />
-                                    Email : info@maison.com
-                                </p>
-                                <div class="social-icon">
-                                    <ul class="social">
-                                        <li>
-                                            <a href="https://www.facebook.com/profile.php?id=100089759930473"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/company/14372659/admin/"><i class="fab fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="about-us-info">
-                                <h2 class="builders"><span>Builders</span></h2>
-                                <ul class="list">
-                                    <li>
-                                        <a href="#">M3M</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">DLF</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Elan</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">SS Group</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">BPTP</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class=" col-lg-3 col-md-6 col-sm-6 col-xl-3 col-12">
-                            <div class="about-us-info">
-                                <h2 class="projects"><span>Projects</span></h2>
-                                <ul class="list">
-                                    <li><a href="#">M3M Capital</a></li>
-                                    <li><a href="#">M3M Atrium 57</a></li>
-                                    <li><a href="#">SS Linden</a></li>
-                                    <li><a href="#">Elan Paradise</a></li>
-                                    <li><a href="#">Elan Empire</a></li>
-                                    <li><a href="#">DLF One Midtown</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-
-                            <div class="about-us-info">
-                                <h2 class="contact">Contact Us</h2>
-                                <div class="foform">
-                                    <form action="processform.php" method="POST" class="form">
-                                        <input type="text" id="name" name="name" class="formfi" placeholder="Name"
-                                            required><br><br>
-
-
-                                        <input type="email" id="email" name="email" class="formfi" placeholder="E-mail"
-                                            required><br><br>
-
-
-                                        <input type="tel" id="contact-number" name="contact-number" class="formfi"
-                                            placeholder="Contact No." required><br><br>
-
-                                        <!-- <label for="message">Message:</label> -->
-                                        <textarea class="textarea" id="message" placeholder="Message"
-                                            name="message"></textarea><br><br>
-
-                                        <input class="formbtn" type="submit" value="Submit">
-                                    </form>
-
-                                </div>
-
-                                </form>
-
-
-                            </div>
-                        </div>
-                    </div>
+    <div class="footer-dark">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="about-us-info">
+                <div class="footer-img">
+                  <img src="./images/maisoninfra1.png" alt="" />
                 </div>
-            </div>
-            <div class="footer-copy">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12 col-12">
-                            <div class="footer-text">
-                                <p>
-                                    Copyright 2022 © Maison Infra
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <p class="footer-p">
+                  957C Tower B1, Spaze I-Tech Park, Badshahpur Sohna Rd Hwy, Sector 49, Gurugram,
+                  Haryana 122018, India<br />
+                  Phone : +91 99991 56255<br />
+                  Email : info@maison.com
+                </p>
+                <div class="social-icon">
+                  <ul class="social">
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=100089759930473"><i
+                          class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/14372659/admin/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+              <div class="about-us-info">
+                <h2 class="builders"><span>Builders</span></h2>
+                <ul class="list">
+                  <li>
+                    <a href="#">M3M</a>
+                  </li>
+                  <li>
+                    <a href="#">DLF</a>
+                  </li>
+                  <li>
+                    <a href="#">Elan</a>
+                  </li>
+                  <li>
+                    <a href="#">SS Group</a>
+                  </li>
+                  <li>
+                    <a href="#">BPTP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-xl-3 col-12">
+              <div class="about-us-info">
+                <h2 class="projects"><span>Projects</span></h2>
+                <ul class="list">
+                  <li><a href="#">M3M Capital</a></li>
+                  <li><a href="#">M3M Atrium 57</a></li>
+                  <li><a href="#">SS Linden</a></li>
+                  <li><a href="#">Elan Paradise</a></li>
+                  <li><a href="#">Elan Empire</a></li>
+                  <li><a href="#">DLF One Midtown</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+
+              <div class="about-us-info">
+                <h2 class="contact">Contact Us</h2>
+                <div class="foform">
+                  <form action="processform.php" method="POST" class="form">
+                    <input type="text" id="name" name="name" class="formfi" placeholder="Name" required><br><br>
+
+
+                    <input type="email" id="email" name="email" class="formfi" placeholder="E-mail" required><br><br>
+
+
+                    <input type="tel" id="contact-number" name="contact-number" class="formfi" placeholder="Contact No."
+                      required><br><br>
+
+                    <!-- <label for="message">Message:</label> -->
+                    <textarea class="textarea" id="message" placeholder="Message" name="message"></textarea><br><br>
+
+                    <input class="formbtn" type="submit" value="Submit">
+                  </form>
+
+                </div>
+
+                </form>
+
+
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+      <div class="footer-copy">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-12">
+              <div class="footer-text">
+                <p>
+                  Copyright 2023 © Maison Infra
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 <script src="js/counter.js"></script>
