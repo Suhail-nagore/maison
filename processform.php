@@ -8,6 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
@@ -47,57 +48,68 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $e->getMessage();
         exit;
     }
-
+        
     // Close the database connection
     $conn = null;
-
-    // Send an email with the form data
-   // Send an email with the form data
-// $mail = new PHPMailer(true);
-
-
-
+       
+   
+    // Send an email with the form data 
+    $mail = new PHPMailer(true);
+    // print_r($mail);
 
 
-// try {
-//     Server settings
-//     $mail->isSMTP();
-//     $mail->Host = 'smtp.hostinger.com'; // Replace with your SMTP server address
-//     $mail->SMTPAuth = true;
-//     $mail->Username = 'info@maisoninfratech.in'; // Replace with your SMTP username
-//     $mail->Password = 'Maison@123'; // Replace with your SMTP password
-//     $mail->SMTPSecure = 'tls'; // Enable TLS encryption, 'ssl' also possible
-//     $mail->Port =465 ;
+
+
+        
+    try {
+//  Server settings
+    // echo $mail;
+    // $mail->SMTPDebug = 2;                                       
+    $mail->isSMTP();
+    $mail->Host = 'smtp.hostinger.com'; // Replace with your SMTP server address
+    $mail->SMTPAuth = true;
+    $mail->Username = 'info@maisoninfratech.in'; // Replace with your SMTP username
+    $mail->Password = 'Maison@123'; // Replace with your SMTP password
+    $mail->SMTPSecure = 'ssl'; // Enable TLS encryption, 'ssl' also possible
+    $mail->Port = 465 ;
 
 //     Recipients
-//     $mail->setFrom($email,$name);
-//     $mail->addAddress('info@maisoninfratech.in'); // Replace with the desired email address
+    $mail->setFrom('info@maisoninfratech.in',$name);
+    $mail->addAddress('info@maisoninfratech.in'); // Replace with the desired email address
 
 //     Email content
-//     $mail->isHTML(false);
-//     $mail->Subject = 'Form Submission';
-//     $mail->Body = "Name: $name\n"
-        
-//         . "Email: $email\n"
-//         . "Contact Number: $contactNumber\n"
-        
-//         . "Message: $message\n";
+    $mail->isHTML(true);
+    $mail->Subject = 'Form Submission';
+    $mail->Body = "Name: $name\n"
+        . "Email: $email\n"
+        . "Contact Number: $contactNumber\n"
+        . "Message: $message\n";
+    //     print_r($mail);
+    // if (!$mail->send()) {
+    // echo "Mailer Error: " . $mail->ErrorInfo;
+    // } else {
+    // echo "Message sent successfully!";
+    // }
 
-//     $mail->send();
-//     print_r($mail);
-//     echo 'Mail SEnt';
+
+    $mail->send();
+    // print_r($mail);
+    // echo 'Mail SEnt';
 
 //     Email sent successfully
-//     header("Location: success.html");
-//     exit;
-// } catch (Exception $e) {
-//     Error sending email
-//     echo "Error sending email: " . $mail->ErrorInfo;
-//     exit;
-// }
- header("Location: success.html");
- exit;
+    header("Location: success.html");
+    exit;
+} 
+catch (Exception $e) {
+    // Error sending email
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    exit;
+}
+    
 
+
+//  header("Location: success.html");
+//  exit;
 }
 ?>
 
