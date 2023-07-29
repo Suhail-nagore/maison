@@ -57,13 +57,14 @@ a {
 
 .header .logo {
     padding: 0;
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     /* margin-right: 3rem; */
 }
 
 .header .logo2 {
     padding: 0;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-right: 3rem;
     padding-top: 5px;
 }
@@ -101,6 +102,7 @@ a {
     text-transform: capitalize;
     color: #fff;
     font-weight: 600;
+    font-family: Montserrat, sans-serif;
 }
 
 .header .logo a img {
@@ -444,7 +446,13 @@ a {
 .ag-about .about-content {
     padding: 22px;
     margin-top: 4rem;
+    margin-bottom: 0 !important;
 }
+
+.abcont{
+    margin-top: 0 !important;
+}
+
 
 .ag-about .about-content h3 {
     font-size: 34px;
@@ -460,6 +468,15 @@ div.about-content p {
     text-align: justify;
 }
 
+.ptag{
+    text-align: justify;
+}
+
+.abcon{
+    align-items: center;
+    text-align: center;
+
+}
 
 p:not(:last-child) {
     margin-bottom: 1rem;
@@ -475,11 +492,11 @@ p:not(:last-child) {
     list-style: none;
 }
 
-.ag-about .about-content .cal-action ul li {
+ .cal-action ul li {
     margin-right: 20px;
 }
 
-.ag-about .about-content .cal-action ul li i {
+.cal-action ul li i {
     color: #C98F30;
 
     float: left;
@@ -488,7 +505,7 @@ p:not(:last-child) {
     margin-right: 10px;
 }
 
-.ag-about .about-content .cal-action ul li div.est {
+ .cal-action ul li div.est {
     float: left;
 }
 .ext-det {
