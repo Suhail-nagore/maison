@@ -13,6 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $contactNumber = $_POST["contact-number"];
+    $Address = $_POST["Address"];
     $message = $_POST["message"];
 
     // Validate and sanitize the form data (perform necessary checks)
@@ -37,10 +38,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Prepare and execute the database query
     try {
-        $stmt = $conn->prepare("INSERT INTO ContactForm (name,  email, contact_number, message) VALUES (:name,  :email, :contactNumber, :message)");
+        $stmt = $conn->prepare("INSERT INTO ContactForm (name,  email, contact_number,Address, message) VALUES (:name,  :email,:Address, :contactNumber, :message)");
         $stmt->bindParam(':name', $name);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':contactNumber', $contactNumber);
+        $stmt->bindParam(':Address', $Address);
         $stmt->bindParam(':message', $message);
         $stmt->execute();
     } catch (PDOException $e) {
@@ -83,6 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Body = "Name: $name\n"
         . "Email: $email\n"
         . "Contact Number: $contactNumber\n"
+        . "Address: $Address\n"
         . "Message: $message\n";
     //     print_r($mail);
     // if (!$mail->send()) {
