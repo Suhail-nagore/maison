@@ -988,7 +988,7 @@ ul.social li a {
     -moz-transition: all .4s !important;
     transition: all .4s !important;
     margin: 15px auto 0 !important;
-    background: #007bff url(/images/send-arrow.png) no-repeat center !important;
+    background: #007bff url(/maison/images/send-arrow.png) no-repeat center !important;
     display: block !important;
     position: relative !important;
     z-index: 1 !important;
