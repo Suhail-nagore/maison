@@ -1504,12 +1504,18 @@ textarea {
     overflow: hidden;
 }
 
-@media (max-width: 495px) {
+@@media (max-width: 495px) {
     .quick-box{
-        width: 367px; 
+        width: 289px; 
         float: left;
   margin-left: 50%; 
   transform: translateX(-50%);
+
+    }
+}
+@media (max-width: 495px) {
+    .formfi{
+        width: 233px
 
     }
 }
