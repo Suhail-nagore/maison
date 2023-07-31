@@ -956,6 +956,12 @@ textarea {
     }
 }
 
+.footer-dark .list li a  {
+    text-decoration: none;
+}
+.footer-dark .list li a:hover  {
+    text-decoration: underline;
+}
 .myform{
     padding-top: 10px;
 }
