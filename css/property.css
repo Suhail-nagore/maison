@@ -1524,7 +1524,12 @@ ul.social li a {
     margin: 6px 0 0;
     padding: 16px 0;
 }
-
+.footer-dark .list li a  {
+    text-decoration: none;
+}
+.footer-dark .list li a:hover  {
+    text-decoration: underline;
+}
 
 .formfi {
     font-size: 13px;
