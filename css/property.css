@@ -546,12 +546,14 @@ a {
     width: 100%;
     padding: 5px;
     margin: 7px;
+    border: 1px solid black;
 }
 
 .textA {
     width: 100%;
     padding: 5px;
     margin: 7px;
+    border: 1px solid black;
 }
 
 .submitf1 {
@@ -569,6 +571,11 @@ a {
     text-align: center;
     margin: 7px;
 }
+.submitf1:hover{
+    color: #c98f30;
+    background-color: #fff;
+    border: 1px solid #c98f30;
+}
 
 .submitf2 {
     background-color: #25D366;
@@ -583,6 +590,12 @@ a {
     width: 100%;
     text-align: center;
     margin: 7px;
+}
+
+.submitf2:hover{
+    color: #25D366;
+    background-color: #fff;
+    border: 1px solid #25D366;
 }
 
 
@@ -1690,13 +1703,13 @@ ul.social li a {
     -moz-transition: all .4s !important;
     transition: all .4s !important;
     margin: 15px auto 0 !important;
-    background: #007bff url(/images/send-arrow.png) no-repeat center !important;
+    background: #007bff url("../images/send-arrow.png") no-repeat center !important;
     display: block !important;
     position: relative !important;
     z-index: 1 !important;
 }
 .quick-form .submit-btn:hover {
-    background: grey url(/maison//images/send-arrow.png) no-repeat center ;
+    background-color: black !important ;
     
 }
 button,
