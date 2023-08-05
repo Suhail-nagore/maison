@@ -8,37 +8,37 @@ const projects = [
   {
     title: "Central Park",
     type: "residential",
-    imageUrl: "images/centralmain.jpg",
+    imageUrl: "images/centralmain.webp",
     url: "property/centralpark.html",
   },
   {
     title: "Smartworld Dxp one",
     type: "residential",
-    imageUrl: "images/SW 113 - Bar Cam.jpg",
+    imageUrl: "images/SW 113 - Bar Cam.webp",
     url: "property/starworlddxpone.html",
   },
   {
     title: "M3m Crown",
     type: "residential",
-    imageUrl: "images/17.png",
+    imageUrl: "images/m3mcrownnew.jpg",
     url: "property/m3mcrown.html",
   },
   {
     title: "Emaar",
     type: "residential",
-    imageUrl: "images/emaar1.jpg",
+    imageUrl: "images/emaar1.webp",
     url: "property/emaar.html",
   },
   {
     title: "M3m Golf Hills",
     type: "residential",
-    imageUrl: "images/17.png",
+    imageUrl: "images/m3mgolf1.jpg",
     url: "property/m3mgolfhill.html",
   },
   {
     title: "Sobha City",
     type: "residential",
-    imageUrl: "images/17.png",
+    imageUrl: "images/sobha1.webp",
     url: "property/sobhacity.html",
   },
   // Add more projects...
