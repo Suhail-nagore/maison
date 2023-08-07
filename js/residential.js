@@ -2,19 +2,19 @@ const projects = [
   {
     title: "Elan The Presidential",
     type: "residential",
-    imageUrl: "images/elanpredential21.jpg",
+    imageUrl: "images/elanpmainmin.webp",
     url: "property/elanpresidential.html",
   },
   {
     title: "Central Park",
     type: "residential",
-    imageUrl: "images/centralmain.webp",
+    imageUrl: "images/centa-main-min.webp",
     url: "property/centralpark.html",
   },
   {
     title: "Smartworld Dxp one",
     type: "residential",
-    imageUrl: "images/SW 113 - Bar Cam.webp",
+    imageUrl: "images/SW-113min.webp",
     url: "property/starworlddxpone.html",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Emaar",
     type: "residential",
-    imageUrl: "images/emaar1.webp",
+    imageUrl: "images/emaar1min.webp",
     url: "property/emaar.html",
   },
   {
