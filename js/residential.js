@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Central Park",
     type: "residential",
-    imageUrl: "images/centa-main-min.webp",
+    imageUrl: "images/centralmain.webp",
     url: "property/centralpark.html",
   },
   {
