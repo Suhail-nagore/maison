@@ -1217,6 +1217,13 @@ textarea.form-control {
 
 }
 
+.btn-theme:hover {
+
+    background-color: white;
+    color: #c98f30;
+    border: 1px solid #c98f30;
+}
+
 
 /* similar properties section starts from here  */
 
