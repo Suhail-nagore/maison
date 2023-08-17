@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "Emaar Urban Oasis",
+    type: "residential",
+    imageUrl: "images/urbanemaar01.webp",
+    url: "property/urbanemaar.html",
+  },
+  {
     title: "Elan The Presidential",
     type: "residential",
     imageUrl: "images/elanpmainmin.webp",

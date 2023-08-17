@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "Emaar Urban Oasis",
+    type: "residential",
+    imageUrl: "images/urbanemaar01.webp",
+    url: "property/urbanemaar.html",
+  },
+  {
     title: "Elan The Mark",
     type: "commercial",
     imageUrl: "images/elanmark1min.webp",
@@ -59,7 +65,7 @@ function createProjectCard(project) {
 
   const imageElement = document.createElement("img");
   imageElement.src = project.imageUrl;
-  imageElement.classList.add("project-image");
+  imageElement.classList.add("project-image"); // Add a class for the image
   imageElement.addEventListener("click", () => {
     window.location.href = project.url; // Redirect to the project URL
   });

@@ -682,6 +682,7 @@ a {
     max-width: 100%;
 }
 
+
 .label-badges {
     position: absolute;
     top: 24px;
@@ -739,6 +740,15 @@ a {
 
 .text-capitalize {
     text-transform: capitalize !important;
+}
+
+
+.img-data img {
+    height: 250px;
+    /* Adjust this value to your desired image height */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -1199,4 +1209,6 @@ a {
         display: none;
     }
 }
+
+
 
