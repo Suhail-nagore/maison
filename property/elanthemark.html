@@ -11,6 +11,17 @@
 
         gtag('config', 'G-KS9SLJPS9N');
     </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      function validateForm() {
+        var recaptchaResponse = grecaptcha.getResponse();
+        if (recaptchaResponse.length === 0) {
+          alert("Please complete the reCAPTCHA.");
+          return false;
+        }
+        return true;
+      }
+    </script>
     <meta charset="utf-8" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
@@ -1423,7 +1434,7 @@
                                         <div class="quick-box">
                                             <div class="quick-form">
                                                 <span class="inq-form-ttl foont">Hey! there :)</span>
-                                                <form class="form myform" action="processform.php" method="POST">
+                                                <form class="form myform" action="processform.php" method="POST" onsubmit="return validateForm();">
 
                                                     <div class="form-row">
                                                         <div class="row">
@@ -1508,6 +1519,9 @@
                                                             <button class="submit-btn" aria-label="Submit"
                                                                 value="Submit" type="submit" id="submitQuickInq"
                                                                 name="submitQuickInq"></button>
+                                                        </div>
+                                                        <div class="g-recaptcha"
+                                                            data-sitekey="6LcTi-gnAAAAAOJKXDVuodBm4WNeqjY9bJwJBgat">
                                                         </div>
                                                     </div>
                                                 </form>
