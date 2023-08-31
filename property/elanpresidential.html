@@ -13,14 +13,14 @@
     </script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
-      function validateForm() {
-        var recaptchaResponse = grecaptcha.getResponse();
-        if (recaptchaResponse.length === 0) {
-          alert("Please complete the reCAPTCHA.");
-          return false;
+        function validateForm() {
+            var recaptchaResponse = grecaptcha.getResponse();
+            if (recaptchaResponse.length === 0) {
+                alert("Please complete the reCAPTCHA.");
+                return false;
+            }
+            return true;
         }
-        return true;
-      }
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -164,13 +164,13 @@
                                     Enquiry Form
                                 </h2>
                                 <form action="../propertyprocess_form.php" method="post">
-                                    <input type="text" name="name" id="" class="name f1" placeholder="Name">
+                                    <input type="text" name="name" id="" class="name f1" placeholder="Name" required>
 
 
-                                    <input type="text" name="email" id="" class="email f1" placeholder="Email">
-                                    <input type="text" name="contact-number" class="pno f1" placeholder="Phone No.">
+                                    <input type="text" name="email" id="" class="email f1" placeholder="Email" required>
+                                    <input type="text" name="contact-number" class="pno f1" placeholder="Phone No." required>
 
-                                    <textarea name="message" id="" cols="30" rows="6" class="textA"></textarea>
+                                    <textarea name="message" id="" cols="30" rows="6" class="textA" required></textarea>
 
                                     <button type="submit" class="submitf1">Submit</button><br>
                                     <button type="submit" class="submitf2">Whatsapp</button>
@@ -1420,17 +1420,20 @@
                                     <div class="footer-img">
                                         <img src="../images/maisoninfra1.png" alt="" />
                                     </div>
+                                    <img class="flag" src="../images/indiaflag.png" alt="">
                                     <p class="footer-p">
                                         957C Tower B1, Spaze I-Tech Park, Badshahpur Sohna Rd Hwy, Sector 49, Gurugram,
                                         Haryana 122018, India<br />
                                         Phone : +91 99991 56255<br />
                                         Email : info@maison.com
                                     </p>
+                                    <img class="flag" src="../images/Flag-Canada.webp" alt="">
                                     <p class="footer-p">
                                         9 Maple Beach Crescent,
                                         Greater Toronto Area, L7A 2T8
                                         Ontario, Canada
                                     </p>
+                                    <img class="flag" src="../images/usflag.webp" alt="">
                                     <p class="footer-p">
                                         520 Spotswood Gravel Hill Road, Monroe Township, NJ, 08831
                                         New Jersey, USA
@@ -1507,7 +1510,8 @@
                                         <div class="quick-box">
                                             <div class="quick-form">
                                                 <span class="inq-form-ttl foont">Hey! there :)</span>
-                                                <form class="form myform" action="processform.php" method="POST" onsubmit="return validateForm();">
+                                                <form class="form myform" action="processform.php" method="POST"
+                                                    onsubmit="return validateForm();">
 
                                                     <div class="form-row">
                                                         <div class="row">
