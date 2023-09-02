@@ -26,6 +26,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
+  <script src="./js/loadmore.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Maison Infra</title>
@@ -338,8 +339,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+      <div class="#load">
+        <div class="row row12">
+          <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
           <div class="main-div">
             <div class="main-data">
               <div class="img-data">
@@ -536,9 +538,14 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
+        </div>
       </div>
+      <div class="container load">
+        <button id="load-more" class="loadmore" onclick="loadMoreProjects()">Load More</button>
+      </div>
+      
     </div>
   </section>
 
@@ -765,7 +772,7 @@
                 <div class="footer-img">
                   <img src="./images/maisoninfra1.png" alt="" />
                 </div>
-               <img class="flag" src="./images/indiaflag.png" alt="">
+                <img class="flag" src="./images/indiaflag.png" alt="">
                 <p class="footer-p">
                   957C Tower B1, Spaze I-Tech Park, Badshahpur Sohna Rd Hwy, Sector 49, Gurugram,
                   Haryana 122018, India<br />
@@ -855,7 +862,8 @@
                   <div class="quick-box">
                     <div class="quick-form">
                       <span class="inq-form-ttl foont">Hey! there :)</span>
-                      <form class="form myform" action="processform.php" method="POST" onsubmit="return validateForm();">
+                      <form class="form myform" action="processform.php" method="POST"
+                        onsubmit="return validateForm();">
 
                         <div class="form-row">
                           <div class="row">

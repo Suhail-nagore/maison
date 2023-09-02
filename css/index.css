@@ -751,6 +751,32 @@ a {
     margin: 0 auto;
 }
 
+.load{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.loadmore{
+    border: solid 2px #c98f30;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    font-family: Montserrat, sans-serif;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #c98f30;
+}
+
+.loadmore:hover{
+    border: solid 2px #c98f30;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+
+
 
 /* the about section content css is starts from here  */
 
